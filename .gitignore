@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Data
+data/
+!data/.gitkeep
+models/
+!models/.gitkeep
+
+# DVC
+.dvc/tmp
+.dvc/cache
+dvc_remote/
+
+# Jupyter
+.ipynb_checkpoints/
