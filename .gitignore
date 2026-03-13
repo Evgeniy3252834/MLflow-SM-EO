@@ -17,11 +17,11 @@ build/
 *~
 .DS_Store
 
-# Data
+# Data files - игнорируем CSV, но не .dvc
 data/
+!data/raw/
+!data/raw/*.dvc
 !data/.gitkeep
-models/
-!models/.gitkeep
 
 # DVC
 .dvc/tmp
